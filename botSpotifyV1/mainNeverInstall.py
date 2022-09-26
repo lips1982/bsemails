@@ -355,7 +355,7 @@ def main():
 
 ]
     item=random.choice(listaa)
-    datos= db.findby1("gmail","item",listaa)
+    datos= db.findby1("gmail","item",item)
     if len(datos)==0:
         print("no hay datos")
         exit()
